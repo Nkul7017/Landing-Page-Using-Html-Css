@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Lora, serif;
+}
+.cont{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0");
+    height:600px;
+    background-position: center;
+    background-size:cover;
+    padding: 30px;
+    color: rgb(251, 248, 248);
+    line-height:40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-attachment: fixed;
+}
+#im{
+    width:70%;
+    margin: auto;
+}
+#inn{
+    font-size:22px;
+}
+.a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    width:100%;
+}
+#innnn{
+    font-size: 50px;
+}
+.cont1{
+    
+    display:flex;
+    padding:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: rgba(191, 228, 228, 0.34);
+}
+.ab{
+    width:300px;
+   box-shadow: 0px 0px 5px 1px rgb(148, 144, 144);
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+   transition:ease-in-out .5s;
+   margin-bottom: 100px;
+}
+.ab:hover{
+   transform:scale(1.02);
+}
+.content{
+    padding:20px;
+    text-align: center;
+
+}
+img{
+   max-width:100%;
+   border-radius: 10px;
+}
+
+.co{
+   float: left;
+   background-color: rgb(103, 158, 52);
+   height:auto;
+   padding:60px;
+   width:50%;
+}
+.abo{
+    float: left;
+    background-color: rgba(131, 40, 26, 0.926);
+    height:auto;
+   padding:60px;
+   width:50%;
+}
+#h{
+    margin: 10px;
+}
+@media screen and (max-width: 700px)
+{
+    .co{width:100%;}
+    .abo{width:100%;}
+}
